@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+#component-container {
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  max-width: 320px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px hsl(0, 0%, 59%);
+  text-align: center;
+  margin: auto 0;
+}
+
+#component-container li {
+  list-style: none;
+}
+
+#component-container img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.bolder-text {
+  color: hsl(218, 44%, 22%);
+  font-weight: bold;
+  font-size: 1.35rem;
+  padding: 20px 0;
+}
+
+.smaller-text {
+  font-size: 1.05rem;
+  color: #7b879d;
+  padding-bottom: 15px;
+}
