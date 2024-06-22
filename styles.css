@@ -12,6 +12,7 @@ body {
   height: 100vh;
   display: flex;
   flex-flow: column nowrap;
+  justify-content: center;
   align-items: center;
 }
 
@@ -22,7 +23,7 @@ body {
   border-radius: 20px;
   box-shadow: 2px 2px 4px hsl(0, 0%, 59%);
   text-align: center;
-  margin: auto 0;
+  margin: 100px 0;
 }
 
 #component-container li {
